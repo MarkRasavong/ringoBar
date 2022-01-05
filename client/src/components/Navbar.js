@@ -99,8 +99,8 @@ const Navbar = () => {
                             }}
                         >
                             {pages.map((page) => (
-                                <MenuItem key={page.title} onClick={handleCloseNavMenu} key={`m${page.title}`} href={page.link}>
-                                    <Typography textAlign="center">{page.title}</Typography>
+                                <MenuItem key={page.title} onClick={handleCloseNavMenu} key={`m${page.title}`}>
+                                    <a href={page.link} style={{ textDecoration: 'none' }}><Typography textAlign="center">{page.title}</Typography></a>
                                 </MenuItem>
                             ))}
                         </Menu>
@@ -108,7 +108,7 @@ const Navbar = () => {
 
                 </Toolbar>
             </Container>
-        </AppBar>
+        </AppBar >
     )
 };
 

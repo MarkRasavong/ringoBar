@@ -12,7 +12,7 @@ const socialMedia = [
     {
         key: 'googleRestaurant',
         icon: <GoogleIcon color='primary' />,
-        link: 'tel:+34-624-41-45-18'
+        link: 'https://www.google.com/maps/place/RINGO+BAR/@39.4845162,-0.3890558,17z/data=!4m7!3m6!1s0xd604f1cead0fce7:0xdf718751632a7a69!8m2!3d39.4845089!4d-0.3868619!9m1!1b1'
     },
     {
         key: 'facebookSocialMediaLink',
