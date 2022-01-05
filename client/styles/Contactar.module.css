@@ -3,10 +3,21 @@
   padding: var(--section_padding);
 }
 
-.imageSizeContactar {
-  height: 600px;
+.mapSize {
+  height: 62vh;
 }
 
+@media screen and (max-width: 480px) {
+  .mapSize {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 820px) {
+  .mapSize {
+    height: 38vh;
+  }
+}
 /*[theme.breakpoints.between('xs', 'sm')]: {
             height: '20vh'
         },

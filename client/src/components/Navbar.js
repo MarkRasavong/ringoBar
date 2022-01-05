@@ -44,10 +44,10 @@ const Navbar = () => {
     };
 
     return (
-        <AppBar position='static'>
+        <AppBar className={styles.navBarObj}>
             <Container maxWidth='xl'>
                 <Toolbar disableGutters={true}>
-                    <a href='/' className={styles.navLogo}>Ringo Bar</a>
+                    <a href='/' className={styles.navLogo}>RingoBar</a>
                     <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' }, justifyContent: 'space-evenly' }}>
                         {pages.map((page) => (
                             <Button

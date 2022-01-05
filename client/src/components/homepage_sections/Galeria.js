@@ -1,4 +1,4 @@
-import { Grid, Typography, Box, Button } from '@mui/material';
+import { Grid, Typography, Button } from '@mui/material';
 import InstagramIcon from '@mui/icons-material/Instagram';
 import GoogleIcon from '@mui/icons-material/Google';
 import styles from '../../../styles/Galeria.module.css';

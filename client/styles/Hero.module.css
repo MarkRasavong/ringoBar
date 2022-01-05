@@ -10,3 +10,16 @@
   height: 40px;
   margin: 2px;
 }
+
+@media screen and (max-width: 480px) {
+  .heroPic {
+    height: 200px;
+  }
+}
+
+@media screen and (min-width: 769px) {
+  .heroPic {
+    height: 350px;
+    margin-right: 50px;
+  }
+}

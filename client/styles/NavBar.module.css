@@ -4,3 +4,13 @@
   font-size: 2rem;
   font-family: Oleo Script;
 }
+
+.navBarObj {
+  position: static;
+}
+
+@media screen and (max-width: 480) {
+  .navBarObj {
+    position: sticky;
+  }
+}

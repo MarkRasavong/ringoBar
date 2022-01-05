@@ -8,7 +8,7 @@ const carta = () => {
     return (
         <div className={styles.menuDiv}>
             <Grid container justifyContent="center">
-                <Typography variant='h1' component='div' color='primary'>Ringo Carta</Typography>
+                <Typography variant='h1' component='div' color='primary' className={styles.titleSize}>Ringo Carta</Typography>
             </Grid>
             <Grid container justifyContent="center" marginBottom={'20px'}>
                 <div>

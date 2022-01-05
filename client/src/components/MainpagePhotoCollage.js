@@ -39,7 +39,7 @@ const itemData = [
 
 const MainpagePhotoCollage = () => {
 
-    return <Box className={styles.photoCollageDiv}>
+    return <Box sx={{ width: 1000, height: 500, overflowY: "auto" }}>
         <ImageList variant="masonry" cols={3} gap={8}>
             {itemData.map((item) => (
                 <ImageListItem key={item.img}>

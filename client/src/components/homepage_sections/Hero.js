@@ -7,10 +7,8 @@ const Hero = () => {
 
     return (
         <Fragment>
-            <Grid container className={styles.hero_div}>
-                <Grid item xs={12} sm={12} md={6}>
-                    <img src='/pizza-hero.png' alt='image of a pizza on the hero section of the main page' className={styles.heroPic} />
-                </Grid>
+            <Grid container className={styles.hero_div} justifyContent="center">
+                <img src='/pizza-hero.png' alt='image of a pizza on the hero section of the main page' className={styles.heroPic} />
                 <Grid item xs={12} md={6}>
                     <Typography variant='h5' component='div' gutterBottom>
                         Hoy, estamos 'ABIERTO' o 'Cierrado' + today's hours: Pide por

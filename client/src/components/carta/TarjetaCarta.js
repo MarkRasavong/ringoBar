@@ -1,4 +1,4 @@
-import { Accordion, AccordionDetails, AccordionSummary, Card, CardContent, Grid, Typography } from "@mui/material"
+import { Accordion, AccordionDetails, AccordionSummary, Card, CardContent, Grid, Typography } from "@mui/material";
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 
 const TarjetaCarta = ({ data, title }) => {
