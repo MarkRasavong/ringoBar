@@ -1,0 +1,22 @@
+body {
+  --primary-colour: #e34033;
+  --secondary-colour: #315f11;
+  --contrast-text: #fff;
+  --section_padding: 4rem 6rem;
+  --section_margin: 4rem 6rem;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+footer {
+  clear: both;
+  position: relative;
+  height: 80px;
+}
