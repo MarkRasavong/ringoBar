@@ -13,7 +13,7 @@ const TarjetaCarta = ({ data, title }) => {
             <AccordionDetails>
                 {
                     data.map((item) => (
-                        <AccordionDetails>
+                        <AccordionDetails key={item.name}>
                             <Card>
                                 <CardContent>
                                     <Grid container justifyContent='space-between'><Typography color='secondary' variant='h6' component='span'>{item.name}</Typography> <Typography color='primary' variant='h6' component='span'>{item.price}€</Typography></Grid>
