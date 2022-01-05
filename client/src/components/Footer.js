@@ -1,8 +1,9 @@
 import { Grid, Typography } from "@mui/material";
+import styles from '../../styles/Footer.module.css';
 
 const Footer = () => {
     return (
-        <footer style={{ backgroundColor: 'var(--primary-colour)' }}>
+        <footer className={styles.footer}>
             <Grid container justifyContent='center' sx={{ paddingTop: '20px' }}>
                 <Typography variant="h4" color="var(--contrast-text)">RingoBar</Typography>
             </Grid>
@@ -10,4 +11,4 @@ const Footer = () => {
     )
 }
 
-export default Footer
+export default Footer;

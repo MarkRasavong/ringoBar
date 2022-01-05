@@ -1,0 +1,12 @@
+.hero_div {
+  padding: var(--section_padding);
+}
+
+.heroPic {
+  height: 350px;
+}
+
+.buttonSticker {
+  height: 40px;
+  margin: 2px;
+}

@@ -1,5 +1,5 @@
 import { Box, ImageList, ImageListItem } from "@mui/material";
-import useStyles from '../styles/Galeria.module';
+import styles from '../../styles/Galeria.module.css';
 
 const itemData = [
     {
@@ -38,9 +38,8 @@ const itemData = [
 ]
 
 const MainpagePhotoCollage = () => {
-    const classes = useStyles();
 
-    return <Box className={classes.photoCollageDiv}>
+    return <Box className={styles.photoCollageDiv}>
         <ImageList variant="masonry" cols={3} gap={8}>
             {itemData.map((item) => (
                 <ImageListItem key={item.img}>

@@ -5,7 +5,7 @@ import React from 'react';
 import PhoneInTalk from '@mui/icons-material/PhoneInTalk';
 import Facebook from '@mui/icons-material/Facebook';
 import Instagram from '@mui/icons-material/Instagram';
-import useStyles from '../styles/NavBar.module';
+import styles from '../../styles/NavBar.module.css';
 
 const pages = [
     { title: 'Carta', link: '/carta' },
@@ -33,7 +33,6 @@ const socialMedia = [
 ];
 
 const Navbar = () => {
-    const classes = useStyles();
     const [anchorElNav, setAnchorElNav] = useState(null);
 
     const handleOpenNavMenu = (event) => {
@@ -48,7 +47,7 @@ const Navbar = () => {
         <AppBar position='static'>
             <Container maxWidth='xl'>
                 <Toolbar disableGutters={true}>
-                    <a href='/' className={classes.navLogo}>Ringo Bar</a>
+                    <a href='/' className={styles.navLogo}>Ringo Bar</a>
                     <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' }, justifyContent: 'space-evenly' }}>
                         {pages.map((page) => (
                             <Button

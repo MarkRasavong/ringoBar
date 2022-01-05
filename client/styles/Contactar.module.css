@@ -1,0 +1,18 @@
+.contactGrid {
+  background-color: var(--primary-colour);
+  padding: var(--section_padding);
+}
+
+.imageSizeContactar {
+  height: 600px;
+}
+
+/*[theme.breakpoints.between('xs', 'sm')]: {
+            height: '20vh'
+        },
+        [theme.breakpoints.between('sm', 'md')]: {
+            height: '48vh'
+        },
+        [theme.breakpoints.between('md', 'lg')]: {
+            height: '64vh'
+        }*/
