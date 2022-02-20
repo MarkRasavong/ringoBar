@@ -31,7 +31,7 @@ const Hero = () => {
     return (
         <Fragment>
             <Grid container className={styles.hero_div} justifyContent="center">
-                <img src='/pizza-hero.png' alt='image of a pizza on the hero section of the main page' className={styles.heroPic} />
+                <img src='/crop-logo-rm-bg.png' alt='image of a pizza on the hero section of the main page' className={styles.heroPic} />
                 <Grid item xs={12} md={6}>
                     <BusinessHours />
                     <Grid container spacing={0.5}>

@@ -58,89 +58,84 @@ export const pizzas = [
         number: 11,
         name: 'TRUFADA',
         description: 'Mozzarella, longaniza, huevo, trufa, y boletous.',
-        price: '9,50'
+        price: '9,80'
     }, {
         number: 12,
         name: 'VEGETAL',
         description: 'Base de tomate, mozzarella, champioñones, berenjena, calabacin, y olivias',
-        price: '8,90'
+        price: '9,50'
     }, {
         number: 13,
         name: 'BUFALA',
         description: 'Base de tomate, mozzarella de bufala, tomate cherry, aceite de olvia, y albahaca.',
-        price: '9,50'
+        price: '9,80'
     }, {
         number: 14,
         name: 'SERRANO',
         description: 'Base de tomate, mozzarella, jamon serrano, aceite de olvia, y pecorino.',
-        price: '9,20'
+        price: '9,50'
     }, {
         number: 15,
         name: 'CAPRICCIOSA',
         description: 'Base de tomate, mozzarella, jamon york, champioñones, y alcachofas.',
-        price: '8,50',
+        price: '8,90',
     }, {
         number: 16,
-        name: 'CALAMARES',
-        description: 'Base de tomate, mozzarella, calamares, y albahacas.',
-        price: '8,50'
-    }, {
-        number: 17,
         name: 'ROMANA',
         description: 'Base de tomate, mozzarella, anchoas, y olivias negras.',
         price: '7,90'
     }, {
-        number: 18,
+        number: 17,
         name: 'SALMON',
         description: 'Base de tomate, mozzarella, salmon, y tomate cherry.',
-        price: '8,50'
+        price: '9,80'
     }, {
-        number: 19,
+        number: 18,
         name: 'RINGO',
         description: 'Base de tomate, mozzarella, champioñones, olivias, gorgonzola, longaniza, pecorino, y aceite de olvia.',
         price: '8,90'
     }, {
-        number: 20,
+        number: 19,
         name: 'POLLO',
         description: 'Base de tomate, mozzarella, champioñones, pollo, y cebolla.',
         price: '8,50'
     }, {
-        number: 21,
+        number: 20,
         name: 'HAWAIANA',
         description: 'Base de tomate, mozzarella, jamon york, y piña.',
         price: '8,90'
     }, {
-        number: 22,
+        number: 21,
         name: 'BURRATA',
         description: 'Base de tomate, mozzarella, burrata, jamon serrano, albahaca, y aceite de olvia.',
-        price: '8,90'
+        price: '9,80'
     }, {
-        number: 23,
+        number: 22,
         name: 'PORCA',
         description: 'Nata, mozzarella, champiñones, longaniza, pancetta, y aceite de ajo.',
         price: '8,90'
     }, {
-        number: 24,
+        number: 23,
         name: 'BISMARCK',
         description: 'Base de tomate, mozzarella, bacon, y huevo.',
         price: '7,90'
     }, {
-        number: 25,
+        number: 24,
         name: 'FRANKFURT',
         description: 'Nata, mozzarella, cebolla, franfurt, y parmesano.',
         price: '8,50',
     }, {
-        number: 26,
+        number: 25,
         name: 'BUFALA BLANCA',
         description: 'Nata, mozzarella de bufala, y jamon york.',
         price: '9,80'
     }, {
-        number: 27,
+        number: 26,
         name: 'CALZONE',
         description: 'Base de tomate, mozzarella, champioñones, jamon york, aceite de olvia, y parmesano.',
         price: '9,80'
     }, {
-        number: 28,
+        number: 27,
         name: 'FOCACCIA',
         description: 'Base de pizza, aceite de olvia o de ajo, romero, sal, y oregano.',
         price: '2,50'
@@ -313,10 +308,6 @@ export const bocadillos = [
 
 export const dolci = [
     {
-        name: 'POSTRE DEL DIA',
-        price: '2,90'
-    },
-    {
         name: 'PIZZA DE NUTELLA',
         price: '6,00'
     },
@@ -349,9 +340,6 @@ export const pastasApretivosYmas = [
         name: 'TEQUEÑOS DE QUESO (4 unidades)',
         price: '3,60'
     }, {
-        name: 'BOMBAS (1 unidad)',
-        price: '1,00'
-    }, {
         name: 'NUGGETS POLLO',
         price: '3,90',
     }, {
@@ -360,12 +348,6 @@ export const pastasApretivosYmas = [
     }, {
         name: 'PATATAS RINGO',
         price: '5,50'
-    }, {
-        name: 'RACIÓN DE CALAMARES',
-        price: '5,50'
-    }, {
-        name: 'RACIÓN CORQUETAS DE JAMON',
-        price: '2,50'
     }, {
         name: 'TABLA DE EMBUTIDOS CON PAN',
         price: '6,90'

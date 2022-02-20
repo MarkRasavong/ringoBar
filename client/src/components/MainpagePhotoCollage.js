@@ -3,21 +3,21 @@ import styles from '../../styles/Galeria.module.css';
 
 const itemData = [
     {
-        img: 'https://images.unsplash.com/photo-1562103608-104fa5589661',
-        title: 'pizza con arrgula',
+        img: '/crop-logo-rm-bg.png',
+        title: 'cafeteroa ringo bar logo',
     },
     {
         img: 'https://images.unsplash.com/photo-1597289124948-688c1a35cb48',
         title: 'lasaña'
     },
     {
-        img: 'https://images.unsplash.com/photo-1458642849426-cfb724f15ef7',
-        title: 'pizza con aceitunas y salami'
+        img: 'https://images.unsplash.com/photo-1589187151053-5ec8818e661b',
+        title: 'pizza margherita con albahaca'
 
     },
     {
-        img: 'https://images.unsplash.com/photo-1589187151053-5ec8818e661b',
-        title: 'pizza con albahaca'
+        img: '/pizza_01.jpeg',
+        title: 'pizza serrano'
     },
     {
         img: 'https://images.unsplash.com/photo-1571066811602-716837d681de',
