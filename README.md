@@ -1,4 +1,4 @@
-# Cafe Conoceder
+# Ringo Bar
 
 A local pizzeria in Valencia made with Next.js.
 
